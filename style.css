@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.TimerApp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.title{
+    font-family: Roboto;
+    font-size: large;
+    font-weight: 700; 
+}
+
+.timerCard, .displayCard{
+
+    background-color: #34344A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 349px;
+    padding: 15px  12px;
+    border-radius: 5px;
+}
+
+.setTime, .stopTime{
+    font-size:smaller;
+}
+
+.timer>span{
+    text-decoration: underline;
+    height: 1px;
+    font-size: larger;
+}
+
+.setButton, .deleteButton{
+    background-color: rgb(240, 247, 87) ;
+    width: 60px;
+    padding: 6px 0px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+.currentTimersBtn{
+    width: 150px;
+    border-radius: 20px;
+    padding: 10px 0px;
+    background-color: rgb(57, 57, 62);
+    color: white;
+    border: none;
+    font-size: x-small;
+}
+
+.displayTimers{
+    font-size: xx-small;
+}
+
+.inputTimer{
+    width: 50px;
+    background-color: #34344A;
+    color: white;
+    border: none;
+    border-bottom: white;
+
+}
+
+.inputTimer>input::-webkit-input-placeholder{
+    color: red;
+}
+
